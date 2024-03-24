@@ -1,0 +1,88 @@
+.flex-item {
+	width: 100px;
+	height: 100px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.base {
+	margin-bottom: 15px;
+	background-color: #d0d3d4;
+	border-radius: 4px;
+}
+
+.caixa1 {
+	background-color: #63b1bc;
+}
+
+.caixa2 {
+	background-color: #1f2a44;
+}
+
+.caixa3 {
+	background-color: #ed145b;
+}
+
+.caixa4 {
+	background-color: #efb661;
+}
+
+h1 {
+	width: fit-content;
+	margin: auto;
+}
+
+.container1 {
+	display: flex;
+	align-items: start;
+	flex-direction: row;
+	justify-content: start;
+}
+
+.container2 {
+	display: flex;
+	align-content: end;
+	flex-direction: row;
+	justify-content: end;
+}
+
+.container3 {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.container4 {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.container5 {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.container6 {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.container-exercicioB {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.container-desafio {
+	display: flex;
+	align-items: start;
+	flex-direction: row-reverse;
+	justify-content: start;
+}
